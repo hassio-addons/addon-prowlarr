@@ -1,0 +1,10 @@
+#!/command/with-contenv bashio
+# shellcheck shell=bash
+# ==============================================================================
+# Home Assistant Community Add-on: Prowlarr
+# Runs Prowlarr
+# ==============================================================================
+
+bashio::log.info 'Starting Prowlarr...'
+
+exec /opt/bin/Prowlarr -nobrowser -data=/config

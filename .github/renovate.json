@@ -32,6 +32,7 @@
       ],
       "datasourceTemplate": "github-releases",
       "depNameTemplate": "Prowlarr/Prowlarr",
+      "versioningTemplate": "loose",
       "extractVersionTemplate": "^v(?<version>.*)$"
     }
   ],

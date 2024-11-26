@@ -6,7 +6,7 @@ FROM ${BUILD_FROM}
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
-ARG PROWLARR_VERSION=1.26.1.4844
+ARG PROWLARR_VERSION=1.27.0.4852
 ARG BUILD_ARCH=amd64
 ARG BUILD_VERSION=dev
 ENV XDG_CONFIG_HOME="/config/xdg"

@@ -18,8 +18,7 @@ RUN \
     xmlstarlet=1.6.1-r2 \
   \
   && if [ "${BUILD_ARCH}" = "aarch64" ]; then PROWLARR_ARCH="arm64"; \
-  elif [ "${BUILD_ARCH}" = "amd64" ]; then PROWLARR_ARCH="x64"; \
-  elif [ "${BUILD_ARCH}" = "armv7" ]; then PROWLARR_ARCH="arm"; fi \
+  elif [ "${BUILD_ARCH}" = "amd64" ]; then PROWLARR_ARCH="x64"; fi \
   \
   && curl -J -L -o /tmp/prowlarr.tar.gz \
       "https://github.com/Prowlarr/Prowlarr/releases/download/v${PROWLARR_VERSION}/Prowlarr.master.${PROWLARR_VERSION}.linux-musl-core-${PROWLARR_ARCH}.tar.gz" \

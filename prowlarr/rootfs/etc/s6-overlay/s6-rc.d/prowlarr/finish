@@ -1,7 +1,7 @@
 #!/command/with-contenv bashio
 # shellcheck shell=bash
 # ==============================================================================
-# Home Assistant Community Add-on: Prowlarr
+# Home Assistant Community App: Prowlarr
 # Take down the S6 supervision tree when Prowlarr fails
 # ==============================================================================
 declare exit_code_container
